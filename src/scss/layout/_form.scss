@@ -1,0 +1,34 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font-all;
+    gap: 15px;
+    
+    &__contact{
+        color: $verde-oscuro;
+        
+
+    }
+    &__lema{
+        color: $gris-claro;
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    font-family: $font-all;
+    color: $gris-claro;
+
+}
+
+.part{
+    &__cod{
+     color:$verde-oscuro
+
+    }
+}
+.buttom{
+    font-family: $font-all;
+    background-color: $verde-oscuro;
+}
